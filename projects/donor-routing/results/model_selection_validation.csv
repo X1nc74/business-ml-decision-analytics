@@ -1,0 +1,7 @@
+stage,model,target,split,roc_auc,average_precision,brier_score
+Income proxy,Logistic regression,income_gt50k,internal validation,0.9022150578534707,0.7698475580956597,0.1061446994117097
+Income proxy,Random forest,income_gt50k,internal validation,0.8881914285487444,0.7353417876581878,0.11446513884353883
+Income proxy,Gradient boosting,income_gt50k,internal validation,0.9200698420695166,0.8171477674086616,0.09521942841289625
+Past donation,Logistic regression,if_donated_last_year,internal validation,0.7145490630128621,0.7972587907610827,0.20067077629744592
+Past donation,Random forest,if_donated_last_year,internal validation,0.6495703334869778,0.7403141782440095,0.23261582260725966
+Past donation,Gradient boosting,if_donated_last_year,internal validation,0.7099517634382715,0.7952104677856482,0.20231667790289656

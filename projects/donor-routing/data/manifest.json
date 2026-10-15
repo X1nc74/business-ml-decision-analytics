@@ -1,0 +1,10 @@
+{
+  "train.csv": {
+    "sha256": "68dba21fbd8a1640f556725abd895212c7a4b14af6971d29779824f711eee5b1",
+    "uncompressed_bytes": 3019651
+  },
+  "test.csv": {
+    "sha256": "3a7299509a4791a7f5f20240e0346a5de79a910ad2a99838b372da08d93f1c33",
+    "uncompressed_bytes": 2725747
+  }
+}

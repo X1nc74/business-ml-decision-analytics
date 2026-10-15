@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "random_state": 42
+  },
+  "source_rows": {
+    "train": 27132,
+    "test": 18090,
+    "known_train": 13566
+  },
+  "features": [
+    "age",
+    "workclass",
+    "education_level",
+    "education-num",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week",
+    "native-country"
+  ],
+  "income_model": "Gradient boosting",
+  "past_donation_model": "Logistic regression",
+  "selection": "maximum AUC on a stratified 20% internal training holdout; refit selected estimator on source training rows",
+  "routing_candidates": 200,
+  "threshold": 0.3,
+  "depot": [
+    31.1508,
+    121.477
+  ],
+  "distance": "Haversine great-circle distance, Earth radius 6371.0088 km; excludes road and travel-time constraints",
+  "economics": {
+    "donation_value": 200,
+    "visit_cost": 5,
+    "travel_cost_per_km": 10
+  },
+  "elapsed_seconds": 24.97,
+  "evaluation_scope": "Course scenario; original test results previously inspected. Income proxy scores are not calibrated donation probabilities. Hybrid rule inherited from course analysis; no causal or untouched-holdout claim."
+}
