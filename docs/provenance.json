@@ -1,0 +1,55 @@
+{
+  "bank-marketing": {
+    "supplied_filename": "modeling.ipynb",
+    "archive_path": "archive/bank-marketing/original_source.ipynb",
+    "uncompressed_bytes": 1254985,
+    "transformation": "Cell source text preserved exactly; saved outputs, execution counts and runtime metadata removed. SHA256 of the full uploaded original retained below.",
+    "cell_sources_sha256": "bcc54bf0af808f4496111e6718589ccc87dea3bd7a977ed51a901bb98fae4b52",
+    "sha256_original_upload": "e7dd00ec704760d3d4e0c89aea6b2861215f98c3fa3a947ce9db41ca7efc5b8f"
+  },
+  "donor-routing": {
+    "supplied_filename": "midterm .ipynb",
+    "archive_path": "archive/donor-routing/original_source.ipynb",
+    "uncompressed_bytes": 1044487,
+    "transformation": "Cell source text preserved exactly; saved outputs, execution counts and runtime metadata removed. SHA256 of the full uploaded original retained below.",
+    "cell_sources_sha256": "738501ff94cc3efefb5eaa2ba13160eae86c76c5fa19e708615d64224f68c3a4",
+    "sha256_original_upload": "9ee7e72456c820828bcc4b267cce9ae33115b2d1e4b77ac45d0d8093877f2f49"
+  },
+  "hotel-overbooking": {
+    "supplied_filename": "overbooking_assignment_v5 (1).ipynb",
+    "archive_path": "archive/hotel-overbooking/original_source.ipynb",
+    "uncompressed_bytes": 468193,
+    "transformation": "Cell source text preserved exactly; saved outputs, execution counts and runtime metadata removed. SHA256 of the full uploaded original retained below.",
+    "cell_sources_sha256": "408b87e5560383244c474af01f176619ed0c0386a06ee2137187c299b994a49d",
+    "sha256_original_upload": "6c47a41f8b60290edcbf7a74030ed1f578d47d7d4dc6a4094628aa36e8a669f4"
+  },
+  "inventory-optimization": {
+    "supplied_filename": "assignment2_inventory_optimization (2).ipynb",
+    "archive_path": "archive/inventory-optimization/original_source.ipynb",
+    "uncompressed_bytes": 1631501,
+    "transformation": "Cell source text preserved exactly; saved outputs, execution counts and runtime metadata removed. SHA256 of the full uploaded original retained below.",
+    "cell_sources_sha256": "a1e29dce0188656b2d269bc35419d810a92b96f87b1c4603321e45f65addb5b6",
+    "sha256_original_upload": "8186ebc3050bef19f4bcc25336c15ac1c13679aea6509f8267d9fd0a8be49a77"
+  },
+  "causal-targeting": {
+    "supplied_filename": "assignment3_causal_targeting.ipynb",
+    "archive_path": "archive/causal-targeting/original_source.ipynb",
+    "uncompressed_bytes": 2147763,
+    "transformation": "Cell source text preserved exactly; saved outputs, execution counts and runtime metadata removed. SHA256 of the full uploaded original retained below.",
+    "cell_sources_sha256": "c44bbb9ffb885df7a863abdeb4bc1e4e3c081281130cf191c1152db0fb3b72d1",
+    "sha256_original_upload": "afaa9677320ad5094a415e6f33a0c4cbe2756d6c3070b8a86ef6e8c52598cd0c"
+  },
+  "bank_report": {
+    "archive_path": "archive/bank-marketing/original_report.pdf",
+    "sha256": "6e14bf2d2b93e55d14eada8ae096ce8660dd0f58c5e8e39d205a521e73308c0a"
+  },
+  "duplicate_causal_version": {
+    "supplied_filename": "new_assignment3_causal_targeting.ipynb",
+    "sha256": "5918fb333a2e6cd6e717644242fa7b11ab06fd3383377d47bdd2e74c03406382",
+    "disposition": "omitted duplicate; all cell sources match primary notebook, differences concern execution metadata and package-install logging"
+  },
+  "midterm_zip": {
+    "sha256": "6056bf164f2fbb79fb024ea2ffcce937b1b7c13a159aaf24032ba093bf44ad4a",
+    "disposition": "datasets bundled under projects/donor-routing/data; unfilled notebook template omitted"
+  }
+}
