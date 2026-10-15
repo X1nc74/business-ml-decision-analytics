@@ -1,0 +1,65 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "random_state": 42
+  },
+  "trees": 300,
+  "split_sizes": {
+    "train": 24712,
+    "validation": 8238,
+    "test": 8238
+  },
+  "feature_columns": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed"
+  ],
+  "classification_selection": "minimum validation Brier score",
+  "classifier": "Calibrated random forest",
+  "duration_selection": "minimum validation RMSE",
+  "duration_model": "Training mean",
+  "validation_buffer_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "scenarios": {
+    "baseline": {
+      "revenue": 100.0,
+      "fixed_cost": 1.0,
+      "cost_per_minute": 4.0,
+      "budget_minutes": 3000.0
+    },
+    "stress": {
+      "revenue": 100.0,
+      "fixed_cost": 1.0,
+      "cost_per_minute": 1.0,
+      "budget_minutes": 1500.0
+    }
+  },
+  "elapsed_seconds": 26.29,
+  "evaluation_scope": "Retrospective stratified random holdout; original test rows were previously examined in the course notebook. Not an untouched future campaign or causal evaluation."
+}
